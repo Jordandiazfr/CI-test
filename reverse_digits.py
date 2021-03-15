@@ -1,6 +1,5 @@
-def reverse_digits():
-    dig = int(input("Insert a digit to see the inversed: "))
+def reverse_digits(dig):
     if type(dig) == type(0):
-        return str(dig)[::-1]
+        return int(str(dig)[::-1])
     else:
         return str(dig) + " is not a digit"

@@ -1,5 +1,2 @@
-def palindrome():
-    p = input("write something to see if it is a palyndrome")
+def palindrome(p):
     return p == p[::-1]
-
-
