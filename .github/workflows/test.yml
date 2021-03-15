@@ -8,4 +8,4 @@ jobs:
       - name: first steps
         run: echo "Hello world" 
       - name: Execute main
-        run: python main.py
+        run: python ../../main.py
