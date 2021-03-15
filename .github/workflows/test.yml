@@ -7,5 +7,6 @@ jobs:
     steps:
       - name: first steps
         run: echo "Hello world" 
+      - uses: actions/checkout@v2
       - name: Execute main
         run: ls -la
