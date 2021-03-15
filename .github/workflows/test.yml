@@ -1,0 +1,9 @@
+name: Workflow test Hello world
+on: 
+  - push 
+jobs: 
+  MyfirstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first steps
+        run: echo "Hello world" 
