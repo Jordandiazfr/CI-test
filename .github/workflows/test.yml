@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: first steps
         run: echo "Hello world" 
+      - name: Execute main
+        run: python main.py
