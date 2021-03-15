@@ -8,5 +8,8 @@ jobs:
       - name: first steps
         run: echo "Hello world" 
       - uses: actions/checkout@v2
-      - name: Execute main
+      - name: Show files
         run: ls -la
+      - name: Execute main
+        run: python main.py
+      
